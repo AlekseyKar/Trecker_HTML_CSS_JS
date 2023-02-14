@@ -12,16 +12,16 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/main.css" />
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
   </head>
   <body>
     <div class="app">
       <div class="panel">
-        <img class="logo" src="/images/logo.svg" alt="Логотип Habbit App" />
+        <img class="logo" src="img/logo.svg" alt="Логотип Habbit App" />
         <nav class="menu">
           <div class="menu__list"></div>
           <button class="menu__add" onclick="togglePopup()">
-            <img src="/images/add.svg" alt="Добавить привычку" />
+            <img src="img/add.svg" alt="Добавить привычку" />
           </button>
         </nav>
       </div>
@@ -51,7 +51,7 @@
               />
               <img
                 class="input__icon"
-                src="/images/comment.svg"
+                src="img/comment.svg"
                 alt="Иконка комментария"
               />
               <button class="button" type="submit">Готово</button>
@@ -65,13 +65,13 @@
           <div class="icon-label">Иконка</div>
           <div class="icon-select">
             <button class="icon icon_active" onclick="setIcon(this, 'sport')">
-              <img src="./images/sport.svg" alt="Спорт" />
+              <img src="img/sport.svg" alt="Спорт" />
             </button>
             <button class="icon" onclick="setIcon(this, 'water')">
-              <img src="./images/water.svg" alt="Напитки" />
+              <img src="img/water.svg" alt="Напитки" />
             </button>
             <button class="icon" onclick="setIcon(this, 'food')">
-              <img src="./images/food.svg" alt="Еда" />
+              <img src="img/food.svg" alt="Еда" />
             </button>
           </div>
           <form class="popup__form" onsubmit="addHabbit(event)">
@@ -87,11 +87,11 @@
             <button class="button" type="submit">Добавить</button>
           </form>
           <button class="popup__close" onclick="togglePopup()">
-            <img src="./images/close.svg" alt="Закрыть попап" />
+            <img src="img/close.svg" alt="Закрыть попап" />
           </button>
         </div>
       </div>
     </div>
-    <script src="./scripts/app.js"></script>
+    <script src="scripts/app.js"></script>
   </body>
 </html>
